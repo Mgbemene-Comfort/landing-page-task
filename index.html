@@ -6,33 +6,45 @@
   <meta name="viewport" content="width=device-width">
   <title>My-landing-page-assignment</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link
+  rel="shortcut icon"
+  href="images/favicon-32x32.png"
+  type="image/x-icon"
+/>
 </head>
 
 <body>
-  <main>
-    <div background="bg-hero-desktop.svg">
-    <div class="parent1">
-      <div class="child1">
-        <img src="logo.svg" text-align="center" alt="logo" width="120px" height="20px"/>
-        <button class="btn1">Try It Free</button>
-      </div>
+  <header>
+    <div class="header-top">
+      <img src="logo.svg" alt="huddle-logo" />
+      <button>Try It Free</button>
     </div>
-    <div class="parent2">
-      <div class="child3">
-        <div class="left1">
-          <h5 class="h5">Build The Community</h5>
-          <h5 class="h5">Your Fans Will Love</h5></br>
-          <p class="p">Huddle re-imagines the way we build communities. You have voice, but so does your audiences. Create connections with your users as you engage in genuine discussion.</p></br>
-          <button class="btn2">Get Started for Free</button>
-        </div>
-        <div class=right1>
-          <img src="illustration-mockups.svg" text-align="center" width="700px" height="500px"/>
-        </div>
+
+    <section class="first-section">
+      <div class="first-section__left">
+        <h1>Build The Community<br />Your Fans Will Love</h1>
+        <p>
+          Huddle re-imagines the way we build communities. You have a voice,
+          but so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <button class="get-started">Get Started For Free</button>
       </div>
+      <div class="first-section__right">
+        <img
+          src="illustration-mockups.svg"
+          alt="illustration-mockups"
+          width="600px"
+          height="400px"
+        />
       </div>
-      </div>
-      <div class="child4" margin="10px">
+    </section>
+  </header>
+
+
+      <main>
+      <div class="child2" margin="10px">
         <div class="left2">
           <h5 class="h">Grow Together</h5></br>
           <p class="p">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the light conversation you miss out on with a feedback.</p>
@@ -40,7 +52,7 @@
         <div class="right2"><img src="illustration-grow-together.svg" text-align="center" height="500px" width="700px" />
         </div>
       </div>
-      <div class="child4" margin="10px">
+      <div class="child3" margin="10px">
         <div class="left3"><img src="illustration-flowing-conversation.svg" height="500px" width="700px" /></div>
 <div class="right3">
   <h5 class="h">Flowing Conversations</h5></br>
@@ -56,36 +68,44 @@
          </div>
        </div>
     </div>
-    <div class="center">
-      <h5 class="h5" margin-left="25%">Ready To Build Your Community?</h5>
-      <button class="btn2" margin="10px">Get Started For Free</button>
-    </div>
+    <section class="ready">
+      <h2>Ready To Build Your Community?</h2>
+      <button>Get Started For Free</button>
+    </section>
+    </main>
+    <footer>
     <div class="parent3">
-      <div>
-      <div class="logo" color="white"><img src="logo.svg" color="white"/></div>
-      <div class="location" color="white"><img src="icon-location.svg" color="white" /><small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat alias deserunt veritatis, quisquam ipsam fugit quia error facere fuga qui! Excepturi aliquid hic asperiores nostrum consequuntur totam exercitationem necessitatibus itaque.</small></div></br>
-      <div class="phone" color="white"><img src="icon-phone.svg" color="white" />+1-543-123-4567</div></br>
+      <div class="left">
+      <div class="huddle-logo" color="white"><img src="logo.svg" color="white"/></div>
+      <div class="location" color="white"><img src="icon-location.svg" color="white" /><div><small>Lorem ipsum dolor sit amet, consectetur<br />adipiscing elit, sed
+        do eiusmod tempor<br />incididunt ut labore et dolore magna aliqua</small></div></br>
+      <div class="call" color="white"><img src="icon-phone.svg" color="white" />+1-543-123-4567</div></br>
       <div class="email" color="white"><img src="icon-email.svg" color="white" />example@hudle.com</div></br>
       </div>
       <div>
-      <div class="navbar">
-        <a class="active" href="#">Home</a>
-        <div class="nav" width="50%"><div><a href="#">About Us</a></div>
-        <div><a href="#">What We Do</a></div></div>
-        <div class="nav" width="50%"></div><div><a href="#">FAQ</a></div>
-        <div><a href="#">Career</a></div>
-        <div class="nav" width="50%"></div><div><a href="#">Blog</a></div>
-        <div><a href="#">Contact Us</a></div>
+        <div class="details-list">
+          <ul>
+            <li><a href="https://example.com">About Us</a></li>
+            <li><a href="https://example.com">What We Do</a></li>
+            <li><a href="https://example.com">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="details-list">
+          <ul>
+            <li><a href="https://example.com">Career</a></li>
+            <li><a href="https://example.com">Blog</a></li>
+            <li><a href="https://example.com">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="social-media">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
       </div>
+      <div class="copyright">
+        &copy; Copyright 2018 Huddle. All rights reserved.
       </div>
-      <div>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-email"></a>
-      </div>
-    </div>
-  </main>
-  <script src="script.js"></script>
-</body>
-
+    </footer>
+  </body>
 </html>
